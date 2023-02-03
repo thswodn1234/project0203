@@ -1,0 +1,73 @@
+.header {
+  margin: 10px;
+  font-family: Arial;
+  text-align: center;
+}
+
+select {
+  width: 400px;
+  font-family: "Noto Sansf KR", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  margin-bottom: 0px;
+
+  border: 1px solid #aaa;
+  border-radius: 0.5em;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+}
+
+.input {
+  width: 400px;
+  font-family: "Noto Sansf KR", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  margin-bottom: 0px;
+
+  border: 1px solid #aaa;
+  border-radius: 0.5em;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+}
+
+select:hover {
+  border-color: rgb(114, 81, 81);
+}
+
+select:focus {
+  border-color: rgb(66, 134, 212);
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: rgb(0, 0, 0);
+  outline: none;
+}
+
+select:disabled {
+  opacity: 0.5;
+}
+
+.filedBox {
+  width: 80vw;
+  margin: 30px;
+}
+
+.label {
+  margin-top: 15px;
+}
+
+.butt {
+  height: 100%;
+  margin-left: 5px;
+  /* margin-top: 15px;
+  margin-left: 160px; */
+}
